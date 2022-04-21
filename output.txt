@@ -1,0 +1,37 @@
+localhost:8889/university/students/		http://localhost:8888/phpMyAdmin5/index.php?route=/database/sql&db=university
+
+   Mostro le righe 0 - 24 (160 del totale, La query ha impiegato 0.0003 secondi.)
+
+
+SELECT *
+FROM `students`
+WHERE YEAR(date_of_birth) = 1990;
+
+
+id	degree_id	name	surname	date_of_birth	fiscal_code	enrolment_date	registration_number	email	
+55	4	Lauro	Vitale	1990-01-30	BWOQAH56L35A201P	2018-10-22	620087	baldassarre.mancini@dangelo.com	
+86	12	Matilde	Ruggiero	1990-11-17	UIFHBM73Q42E973M	2021-02-14	620118	mariagiulia18@gmail.com	
+217	16	Marieva	Mariani	1990-08-30	CRKYAI63Z72H930S	2020-12-13	620249	wgrassi@mariani.net	
+247	14	Marco	Bruno	1990-08-12	EPSWUQ63H25I670E	2020-06-08	620279	ubaldo70@damico.it	
+306	3	Maika	Bianco	1990-01-04	GVOZOR19K65V944K	2019-11-21	620338	nmancini@yahoo.com	
+320	72	Fabiano	Riva	1990-08-11	UYVLCP51Y15P902L	2019-10-10	620352	miriam.lombardi@benedetti.org	
+321	44	Amedeo	Valentini	1990-04-20	RLYGWZ26T24Y855N	2020-04-18	620353	dimitri.mariani@neri.com	
+334	59	Tolomeo	Morelli	1990-03-30	WCLRKV39N67J467D	2019-12-24	620366	amedeo15@bruno.it	
+352	45	Eriberto	Sartori	1990-10-14	MVUSNM49E07E792U	2018-07-16	620384	serse67@messina.com	
+359	2	Harry	Riva	1990-09-03	FLFQUM03P76T235N	2018-06-12	620391	hcaputo@ferraro.com	
+365	67	Ursula	Sanna	1990-09-02	UWSWJL98Y56C153N	2018-11-20	620397	vgreco@mancini.com	
+410	32	Pietro	Ruggiero	1990-05-11	IIXLFZ21V02C420U	2020-04-08	620442	gerlando21@libero.it	
+430	4	Harry	Russo	1990-03-23	BOTXVQ95I30B140O	2020-02-06	620462	giulietta.parisi@gmail.com	
+443	71	Marino	Sartori	1990-10-12	IVJSXN23A76B707B	2018-11-01	620475	gallo.vera@hotmail.com	
+487	36	Cira	Costantini	1990-04-12	GTINRS89N80F500K	2020-11-03	620519	rizzo.enrica@piras.it	
+519	63	Damiana	Farina	1990-01-12	EYKYWC35O38O744L	2020-07-17	620551	yserra@russo.it	
+527	43	Elda	Mariani	1990-04-29	ZHGJNM05Z55G492M	2021-05-21	620559	antonio25@yahoo.it	
+528	69	Maika	Barbieri	1990-04-29	VBMCXI81Q82M718M	2020-05-11	620560	ygiordano@yahoo.com	
+582	41	Augusto	Costantini	1990-07-31	FPQBKO39S99H539Q	2018-06-26	620614	radio21@grassi.com	
+624	4	Cira	De rosa	1990-04-26	FDATYC59R80F558X	2019-01-31	620656	colombo.morgana@pellegrino.com	
+635	45	Boris	Riva	1990-12-28	FWYSKJ18E55V673Z	2020-10-30	620667	sandro72@gmail.com	
+638	5	Marcella	De rosa	1990-08-29	IQDFNY14D55U297S	2018-09-11	620670	assia.palumbo@libero.it	
+695	37	Boris	Martinelli	1990-02-25	LMGYIC37W94J261P	2020-04-27	620727	damiana08@bianco.org	
+710	39	Egisto	Amato	1990-06-07	SZSUWA12R81D485V	2020-08-24	620742	qgallo@libero.it	
+787	63	Laura	Coppola	1990-06-11	IZINQY50C42J452U	2020-05-17	620819	rinaldi.brigitta@marchetti.com	
+
