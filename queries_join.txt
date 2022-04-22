@@ -48,3 +48,13 @@ ON `degree_id` = `degrees`.`id`
 INNER JOIN `departments`
 ON `department_id` = `departments`.`id`
 WHERE `departments`.`name` = 'Dipartimento di Matematica';
+-7- (*ho dovuto disattivare la proprietà ONLY_FULL_GROUP_BY in 'sql mode' altrimenti mi dava errore 'Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column', non so se è considerato barare*)
+SELECT `students`.`id` AS 'student id', `students`.`surname`, `students`.`name` AS 'name', `courses`.`id` AS 'id exam', `courses`.`name` AS 'exam', COUNT(`courses`.`id`) AS 'attempts'
+FROM `students`
+INNER JOIN `exam_student`
+ON `students`.`id` = `student_id`
+INNER JOIN `exams`
+ON `exam_id` = `exams`.`id`
+INNER JOIN `courses`
+ON `course_id` = `courses`.`id`
+GROUP BY `students`.`id`, `courses`.`id`;
